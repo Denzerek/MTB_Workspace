@@ -68,17 +68,17 @@ Tools Directory: C:/Users/Austina/ModusToolbox/tools_2.3
 Git is git version 2.17.0, found at /usr/bin/git
 
 Resolving dependencies...
-Checking if remote manifest is accessible...
-Processing super-manifest https://github.com/cypresssemiconductorco/mtb-super-manifest/raw/v2.X/mtb-super-manifest-fv2.xml...
-Successfully acquired the information.
-INFO - Warning: Multiple versions of "core-make" requested. Keeping version "latest-v1.X" and discarding version "release-v1.8.0".
-C:/Alen/GitHub_Denzerek/MTB_Workspace/PSoC_6/UARTSerialPrint/libs/capsense.mtb was added
-C:/Alen/GitHub_Denzerek/MTB_Workspace/PSoC_6/UARTSerialPrint/libs/core-lib.mtb was added
-C:/Alen/GitHub_Denzerek/MTB_Workspace/PSoC_6/UARTSerialPrint/libs/core-make.mtb was added
-C:/Alen/GitHub_Denzerek/MTB_Workspace/PSoC_6/UARTSerialPrint/libs/mtb-hal-cat1.mtb was added
-C:/Alen/GitHub_Denzerek/MTB_Workspace/PSoC_6/UARTSerialPrint/libs/mtb-pdl-cat1.mtb was added
-C:/Alen/GitHub_Denzerek/MTB_Workspace/PSoC_6/UARTSerialPrint/libs/psoc6cm0p.mtb was added
-C:/Alen/GitHub_Denzerek/MTB_Workspace/PSoC_6/UARTSerialPrint/libs/recipe-make-cat1a.mtb was added
+Checking if remote manifest is accessible...
+Processing super-manifest https://github.com/cypresssemiconductorco/mtb-super-manifest/raw/v2.X/mtb-super-manifest-fv2.xml...
+Successfully acquired the information.
+INFO - Warning: Multiple versions of "core-make" requested. Keeping version "latest-v1.X" and discarding version "release-v1.8.0".
+C:/Alen/GitHub_Denzerek/MTB_Workspace/PSoC_6/UARTSerialPrint/libs/capsense.mtb was added
+C:/Alen/GitHub_Denzerek/MTB_Workspace/PSoC_6/UARTSerialPrint/libs/core-lib.mtb was added
+C:/Alen/GitHub_Denzerek/MTB_Workspace/PSoC_6/UARTSerialPrint/libs/core-make.mtb was added
+C:/Alen/GitHub_Denzerek/MTB_Workspace/PSoC_6/UARTSerialPrint/libs/mtb-hal-cat1.mtb was added
+C:/Alen/GitHub_Denzerek/MTB_Workspace/PSoC_6/UARTSerialPrint/libs/mtb-pdl-cat1.mtb was added
+C:/Alen/GitHub_Denzerek/MTB_Workspace/PSoC_6/UARTSerialPrint/libs/psoc6cm0p.mtb was added
+C:/Alen/GitHub_Denzerek/MTB_Workspace/PSoC_6/UARTSerialPrint/libs/recipe-make-cat1a.mtb was added
 Dependencies resolved.
 
 Searching application directory (.mtb)...

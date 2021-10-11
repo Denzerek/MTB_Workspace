@@ -105,6 +105,9 @@ void ringStore_Byte(ringStruct_s *ring, uint8_t dataToStore)
 		return;
 	}
 
+	sprintf(temp,"%c",dataToStore);
+	serialPrint(temp);
+
 	BUFFER_R[FACE_R] = dataToStore;
 	FACE_R++;
 

@@ -50,8 +50,11 @@ void serialDebugInit()
 
 	cyhal_system_delay_ms(10);
 
-	serialPrint("\r\n\r\n\r\n");
-	serialDriver_print("UART Initialized");
+
+    /* \x1b[2J\x1b[;H - ANSI ESC sequence for clear screen */
+    uart5_print("\x1b[2J\x1b[;H");
+
+	uart5_print("UART Initialized");
 }
 
 

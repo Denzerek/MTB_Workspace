@@ -51,10 +51,17 @@ void spacer(char* string,char *word)
 
 }
 
+static bool poweronFlag;
 
 void commandReception_TASK()
 {
 	char command[50] ,subCmd[10];
+
+	if(!poweronFlag)
+	{
+		serialPrint("\r\n[ COMMAND ] :");
+		poweronFlag++;
+	}
 	if(commandIssued(command))
 	{
 		lowerCasing(command);

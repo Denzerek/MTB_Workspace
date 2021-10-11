@@ -104,7 +104,8 @@ void ringStore_Byte(ringStruct_s *ring, uint8_t dataToStore)
 		serialPrint("[WARNING] : Ring Buffer overflow\r\n");
 		return;
 	}
-
+	sprintf(temp,"%c",dataToStore);
+serialPrint(temp);
 	BUFFER_R[FACE_R] = dataToStore;
 	FACE_R++;
 

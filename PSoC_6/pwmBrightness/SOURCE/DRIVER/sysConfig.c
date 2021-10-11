@@ -35,11 +35,11 @@ void systemInit()
 	systemLEDsInit();
 
 	Timer_0_Init();
-
-	syscfgDriver_print("System Initialized. Executing Application....");
-	syscfgDriver_print("=============================================");
-	syscfgDriver_print("============== APPLICATION NAME =============");
-	syscfgDriver_print("=============================================");
+//
+//	syscfgDriver_print("System Initialized. Executing Application....");
+//	syscfgDriver_print("=============================================");
+//	syscfgDriver_print("============== APPLICATION NAME =============");
+//	syscfgDriver_print("=============================================");
 
 
 }

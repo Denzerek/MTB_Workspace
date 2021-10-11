@@ -46,18 +46,12 @@ int main(void)
 	/*System Initialization for peripherals*/
 	systemInit();
 
-	serialPrint("\r\n\r\n\r\n==========");
-			serialPrint("========================\r\n");
-	serialPrint(        "\r\n==================================\r\n\r\n")
-
 	for (;;)
     {
-
 
 		SerialDebug_TASK();
 
 		commandReception_TASK();
-
 
 		Timer_TASK();
 

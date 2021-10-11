@@ -36,5 +36,9 @@ void systemInit()
 
 	Timer_0_Init();
 
+	syscfgDriver_print("System Initialized. Executing Application....");
+	syscfgDriver_print("===============================================");
+	syscfgDriver_print("============== BRIGHTNESS CONTROL =============");
+	syscfgDriver_print("===============================================");
 
 }

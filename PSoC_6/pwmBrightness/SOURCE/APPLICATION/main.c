@@ -55,10 +55,10 @@ int main(void)
 
 
 volatile uint8_t gpio4_prev = 0,gpio4 = 1;
-volatile uint8_t gpio5_prev = 0,gpio5 = 1;
-volatile uint8_t gpio6_prev = 0,gpio6 = 1;
-Cy_GPIO_Write(SMART_IN1_PORT, SMART_IN1_PIN,1);
-uint32_t counter = 0;
+volatile uint8_t gpio3_prev = 0,gpio3 = 1;
+volatile uint8_t gpio2_prev = 0,gpio2 = 1;
+
+
 	for (;;)
     {
 
@@ -69,20 +69,21 @@ uint32_t counter = 0;
 		commandReception_TASK();
 
 
-		gpio4 = Cy_GPIO_Read(SMART_IN1_PORT, SMART_IN1_PIN);
-		gpio5 = Cy_GPIO_Read(SMART_IN2_PORT, SMART_IN2_PIN);
-		gpio6 = Cy_GPIO_Read(SMART_IN3_PORT, SMART_IN3_PIN);
+		gpio4 = Cy_GPIO_Read(SMART_IN1_PORT, SMART_IN3_PIN);
+		gpio3 = Cy_GPIO_Read(SMART_IN2_PORT, SMART_IN2_PIN);
+		gpio2 = Cy_GPIO_Read(SMART_IN3_PORT, SMART_IN1_PIN);
 
-		if(gpio6_prev != gpio6)
+
+		if(gpio2_prev != gpio2)
 		{
-			if(gpio6)
+			if(gpio2)
 			{
-				sprintf(temp,"port 5 pin 6 is ON %d",gpio6);
+				sprintf(temp,"port 1 pin 2 is ON %d",gpio2);
 				main_print(temp);
 			}
 			else
 			{
-				sprintf(temp,"port 5 pin 6 is OFF %d",gpio6);
+				sprintf(temp,"port 1 pin 2 is OFF %d",gpio2);
 				main_print(temp);
 			}
 		}
@@ -90,33 +91,33 @@ uint32_t counter = 0;
 		{
 			if(gpio4)
 			{
-				sprintf(temp,"port 5 pin 4 is ON %d",gpio4);
+				sprintf(temp,"port 1 pin 4 is ON %d",gpio4);
 				main_print(temp);
 			}
 			else
 			{
-				sprintf(temp,"port 5 pin 4 is OFF %d",gpio4);
+				sprintf(temp,"port 1 pin 4 is OFF %d",gpio4);
 				main_print(temp);
 			}
 		}
-		if(gpio5_prev != gpio5)
+		if(gpio3_prev != gpio3)
 		{
-			if(gpio5)
+			if(gpio3)
 			{
-				sprintf(temp,"port 5 pin 5 is ON %d",gpio5);
+				sprintf(temp,"port 1 pin 3 is ON %d",gpio3);
 				main_print(temp);
 			}
 			else
 			{
-				sprintf(temp,"port 5 pin 5 is OFF %d\r\n",gpio5);
+				sprintf(temp,"port 1 pin 3 is OFF %d\r\n",gpio3);
 				main_print(temp);
 			}
 		}
 
 
 		gpio4_prev = gpio4;
-		gpio5_prev = gpio5;
-		gpio6_prev = gpio6;
+		gpio3_prev = gpio3;
+		gpio2_prev = gpio2;
 
     }
 }

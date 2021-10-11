@@ -15,6 +15,8 @@
 #define RECEPTION_BUFFER_MAX	50
 #define _WORKING_SINGLE_SHOT
 
+#define uart5_print(x)		serialPrint("\r\n[ UART5 ] : ");serialPrint(x);
+
 
 typedef struct{
 	char receptionData[RECEPTION_BUFFER_MAX];

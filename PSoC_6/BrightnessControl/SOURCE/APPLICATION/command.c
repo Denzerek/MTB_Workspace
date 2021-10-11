@@ -51,9 +51,14 @@ void spacer(char* string,char *word)
 
 }
 
-
+static bool poweronFlag;
 void commandReception_TASK()
 {
+	if(!poweronFlag)
+	{
+		serialPrint("\r\n[ COMMAND ] :");
+		poweronFlag++;
+	}
 	char command[50] ,subCmd[10];
 	if(commandIssued(command))
 	{

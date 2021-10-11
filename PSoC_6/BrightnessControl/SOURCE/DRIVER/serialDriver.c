@@ -50,7 +50,10 @@ void serialDebugInit()
 
 	cyhal_system_delay_ms(10);
 
-	serialPrint("\r\nUART Initialized");
+    /* \x1b[2J\x1b[;H - ANSI ESC sequence for clear screen */
+    uart5_print("\x1b[2J\x1b[;H");
+
+	uart5_print("UART Initialized");
 }
 
 
@@ -84,7 +87,7 @@ bool serialRetrieve(char* dataForReception)
 				receivedData.receptionData[receivedData.index++] = (char)'\n';
 				receivedData.receptionData[receivedData.index] = (char)'\0';
 				memcpy(dataForReception,receivedData.receptionData,receivedData.index);
-				serialPrint(receivedData.receptionData);
+				uart5_print(receivedData.receptionData);
 				validDataFlag = true;
 				receivedData.index = 0;
 				receivedData.receptionData[receivedData.index] = (char)'\0';
@@ -100,7 +103,7 @@ bool serialRetrieve(char* dataForReception)
 			receivedData.receptionData[receivedData.index++] = (char)'\r';
 			receivedData.receptionData[receivedData.index++] = (char)'\n';
 			receivedData.receptionData[receivedData.index] = (char)'\0';
-			serialPrint((char*)&receivedData.receptionData);
+			uart5_print((char*)&receivedData.receptionData);
 			receivedData.index = 0;
 			receivedData.receptionData[receivedData.index] = (char)'\0';
 		}

@@ -17,6 +17,7 @@
 #include "serialDriver.h"
 #include "ringBuffer.h"
 
+#define syscfgDriver_print(x)		serialPrint("\r\n[ SYSCFG ] : ");serialPrint(x);
 
 
 void systemInit();

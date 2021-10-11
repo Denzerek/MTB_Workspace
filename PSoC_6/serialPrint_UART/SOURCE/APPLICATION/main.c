@@ -46,7 +46,7 @@ int main(void)
 	/*System Initialization for peripherals*/
 	systemInit();
 
-
+	serialPrint("Hello \r\n");
 	for (;;)
     {
 //		serialPrint("UART Test Example \r\n");

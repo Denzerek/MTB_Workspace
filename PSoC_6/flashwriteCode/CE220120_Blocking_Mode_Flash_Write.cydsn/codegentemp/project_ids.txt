@@ -1,0 +1,8 @@
+C:\Alen\GitHub_Denzerek\MTB_Workspace\PSoC_6\flashwriteCode\CE220120_Blocking_Mode_Flash_Write.cydsn\CE220120_Blocking_Mode_Flash_Write.cyprj|5c3e2cea-445f-407b-b907-3a94daab8479
+C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\default\CyAnnotationLibrary\CyAnnotationLibrary.cylib\CyAnnotationLibrary.cyprj|0ea79845-bccf-4a3d-8f92-61c814e92770
+C:\Users\Austina\Documents\PSoC Creator\4.4\Downloads ( 4.4).cylib\Downloads ( 4.4).cyprj|591cc1be-f815-4f84-b987-effa070bc42e
+C:\Users\Austina\Documents\PSoC Creator\4.3\Downloads ( 4.3).cylib\Downloads ( 4.3).cyprj|9b6753a4-56e6-4809-a310-77d0aea8825e
+C:\Users\Austina\Documents\PSoC Creator\4.2\Downloads ( 4.2).cylib\Downloads ( 4.2).cyprj|8e79cb30-c831-4435-99ce-0b2888a4bf0a
+C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\cycomponentlibraryupdates\CyComponentLibraryUpdates.cylib\CyComponentLibraryUpdates.cyprj|ee7d53c7-6993-42a7-9d49-e69605521b35
+C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\CyComponentLibrary.cyprj|97fceabc-fd42-4595-84d2-e3e50285d784
+C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\CyPrimitives.cyprj|9a231667-1710-4a0b-92ba-5602d2cb0d26

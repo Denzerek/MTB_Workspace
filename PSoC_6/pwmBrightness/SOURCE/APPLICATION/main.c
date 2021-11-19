@@ -48,16 +48,17 @@ int main(void)
 
 
 //	void smartIOInit()
-//	{
-//	    Cy_SmartIO_Init(SMART_PORT_IO_HW, &SMART_IO_PORT_config);
-//	    Cy_SmartIO_Enable(SMART_IO_PORT_HW);
-//	}
+	{
+	    Cy_SmartIO_Init(SMART_IO_9_HW, &SMART_IO_9_config);
+	    Cy_SmartIO_Enable(SMART_IO_9_HW);
+	}
 
 
 volatile uint8_t gpio4_prev = 0,gpio4 = 1;
 volatile uint8_t gpio3_prev = 0,gpio3 = 1;
 volatile uint8_t gpio2_prev = 0,gpio2 = 1;
 
+//Cy_GPIO_Write(TEST_OUT_1_PORT, TEST_OUT_1_PIN,0);
 
 	for (;;)
     {
@@ -69,6 +70,53 @@ volatile uint8_t gpio2_prev = 0,gpio2 = 1;
 		commandReception_TASK();
 
 
+		Cy_GPIO_Write(CYBSP_LED_RGB_BLUE_PORT, CYBSP_LED_RGB_BLUE_PIN,1);
+
+		gpio4 = Cy_GPIO_Read(SMART_IN1_PORT, SMART_IN3_PIN);
+		gpio3 = Cy_GPIO_Read(SMART_IN2_PORT, SMART_IN2_PIN);
+		gpio2 = Cy_GPIO_Read(SMART_IN3_PORT, SMART_IN1_PIN);
+
+		if(gpio2_prev != gpio2)
+		{
+			if(gpio2)
+			{
+				Cy_GPIO_Write(CYBSP_LED_RGB_BLUE_PORT, CYBSP_LED_RGB_BLUE_PIN,1);
+			}
+			else
+			{
+				Cy_GPIO_Write(CYBSP_LED_RGB_BLUE_PORT, CYBSP_LED_RGB_BLUE_PIN,0);
+			}
+		}
+		if(gpio4_prev != gpio4)
+		{
+			if(gpio4)
+			{
+				Cy_GPIO_Write(CYBSP_LED_RGB_GREEN_PORT, CYBSP_LED_RGB_GREEN_PIN,1);
+			}
+			else
+			{
+				Cy_GPIO_Write(CYBSP_LED_RGB_GREEN_PORT, CYBSP_LED_RGB_GREEN_PIN,0);
+			}
+		}
+		if(gpio3_prev != gpio3)
+		{
+			if(gpio3)
+			{
+				Cy_GPIO_Write(CYBSP_LED_RGB_RED_PORT, CYBSP_LED_RGB_RED_PIN,1);
+			}
+			else
+			{
+				Cy_GPIO_Write(CYBSP_LED_RGB_RED_PORT, CYBSP_LED_RGB_RED_PIN,0);
+			}
+		}
+
+
+		gpio4_prev = gpio4;
+		gpio3_prev = gpio3;
+		gpio2_prev = gpio2;
+
+
+#if 0
 		gpio4 = Cy_GPIO_Read(SMART_IN1_PORT, SMART_IN3_PIN);
 		gpio3 = Cy_GPIO_Read(SMART_IN2_PORT, SMART_IN2_PIN);
 		gpio2 = Cy_GPIO_Read(SMART_IN3_PORT, SMART_IN1_PIN);
@@ -118,7 +166,7 @@ volatile uint8_t gpio2_prev = 0,gpio2 = 1;
 		gpio4_prev = gpio4;
 		gpio3_prev = gpio3;
 		gpio2_prev = gpio2;
-
+#endif
     }
 }
 

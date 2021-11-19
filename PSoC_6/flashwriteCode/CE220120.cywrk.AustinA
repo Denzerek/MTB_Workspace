@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CyXmlSerializer>
+<!--This file is machine generated and read. It is not intended to be edited by hand.-->
+<!--Due to this, there is no schema for this file.-->
+<CyGuid_843a90a4-0c4b-4e44-991d-05e7fb117a21 type_name="CyDesigner.Common.ProjMgmt.Model.CyPrjMgmtWrkspcCustomData" version="4">
+<CyGuid_fdba8dfd-b15b-4469-9bbb-9e40c3e70997 type_name="CyDesigner.Common.Base.CyCustomData" version="2">
+<userData>
+<dataGuid v="1b906a0f-a7b6-4e4d-a428-82f98b53cb35">
+<CyGuid_1b906a0f-a7b6-4e4d-a428-82f98b53cb35 type_name="CyDesigner.Common.ProjMgmt.GUI.CyExplorerWindow+CyExplorerWindowState" version="3" SelectedTab="Source">
+<TreeKeys>
+<v>Source</v>
+<v>Components</v>
+<v>Output</v>
+</TreeKeys>
+<TreeStates>
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="CE220120\CE220120_Blocking_Mode_Flash_Write\CM4 (Core 1)\Source Files\main_cm4.c">
+<ExpandedNodeIds>
+<v>CE220120</v>
+<v>CE220120\CE220120_Blocking_Mode_Flash_Write</v>
+<v>CE220120\CE220120_Blocking_Mode_Flash_Write\TopDesign</v>
+<v>CE220120\CE220120_Blocking_Mode_Flash_Write\CE220120_Blocking_Mode_Flash_Write.cydwr</v>
+<v>CE220120\CE220120_Blocking_Mode_Flash_Write\CE220120_Blocking_Mode_Flash_Write.cydwr\Pins</v>
+<v>CE220120\CE220120_Blocking_Mode_Flash_Write\CE220120_Blocking_Mode_Flash_Write.cydwr\Analog</v>
+<v>CE220120\CE220120_Blocking_Mode_Flash_Write\CE220120_Blocking_Mode_Flash_Write.cydwr\DMA</v>
+<v>CE220120\CE220120_Blocking_Mode_Flash_Write\CE220120_Blocking_Mode_Flash_Write.cydwr\Clocks</v>
+<v>CE220120\CE220120_Blocking_Mode_Flash_Write\CE220120_Blocking_Mode_Flash_Write.cydwr\Interrupts</v>
+<v>CE220120\CE220120_Blocking_Mode_Flash_Write\CE220120_Blocking_Mode_Flash_Write.cydwr\System</v>
+<v>CE220120\CE220120_Blocking_Mode_Flash_Write\CE220120_Blocking_Mode_Flash_Write.cydwr\Directives</v>
+<v>CE220120\CE220120_Blocking_Mode_Flash_Write\CM0p (Core 0)</v>
+<v>CE220120\CE220120_Blocking_Mode_Flash_Write\CM0p (Core 0)\ARM GCC Generic</v>
+<v>CE220120\CE220120_Blocking_Mode_Flash_Write\CM0p (Core 0)\ARM GCC Generic\cy8c6xx7_cm0plus.ld</v>
+<v>CE220120\CE220120_Blocking_Mode_Flash_Write\CM0p (Core 0)\ARM IAR Generic</v>
+<v>CE220120\CE220120_Blocking_Mode_Flash_Write\CM0p (Core 0)\ARM IAR Generic\cy8c6xx7_cm0plus.icf</v>
+<v>CE220120\CE220120_Blocking_Mode_Flash_Write\CM0p (Core 0)\ARM MDK Generic</v>
+<v>CE220120\CE220120_Blocking_Mode_Flash_Write\CM0p (Core 0)\ARM MDK Generic\cy8c6xx7_cm0plus.scat</v>
+<v>CE220120\CE220120_Blocking_Mode_Flash_Write\CM0p (Core 0)\Header Files</v>
+<v>CE220120\CE220120_Blocking_Mode_Flash_Write\CM0p (Core 0)\Source Files</v>
+<v>CE220120\CE220120_Blocking_Mode_Flash_Write\CM0p (Core 0)\Source Files\ARM GCC Generic</v>
+<v>CE220120\CE220120_Blocking_Mode_Flash_Write\CM0p (Core 0)\Source Files\ARM GCC Generic\startup_psoc6_01_cm0plus.S</v>
+<v>CE220120\CE220120_Blocking_Mode_Flash_Write\CM0p (Core 0)\Source Files\ARM IAR Generic</v>
+<v>CE220120\CE220120_Blocking_Mode_Flash_Write\CM0p (Core 0)\Source Files\ARM IAR Generic\startup_psoc6_01_cm0plus.s</v>
+<v>CE220120\CE220120_Blocking_Mode_Flash_Write\CM0p (Core 0)\Source Files\ARM MDK Generic</v>
+<v>CE220120\CE220120_Blocking_Mode_Flash_Write\CM0p (Core 0)\Source Files\ARM MDK Generic\startup_psoc6_01_cm0plus.s</v>
+<v>CE220120\CE220120_Blocking_Mode_Flash_Write\CM0p (Core 0)\Source Files\main_cm0p.c</v>
+<v>CE220120\CE220120_Blocking_Mode_Flash_Write\CM0p (Core 0)\Source Files\system_psoc6_cm0plus.c</v>
+<v>CE220120\CE220120_Blocking_Mode_Flash_Write\CM4 (Core 1)</v>
+<v>CE220120\CE220120_Blocking_Mode_Flash_Write\CM4 (Core 1)\ARM GCC Generic</v>
+<v>CE220120\CE220120_Blocking_Mode_Flash_Write\CM4 (Core 1)\ARM GCC Generic\cy8c6xx7_cm4_dual.ld</v>
+<v>CE220120\CE220120_Blocking_Mode_Flash_Write\CM4 (Core 1)\ARM IAR Generic</v>
+<v>CE220120\CE220120_Blocking_Mode_Flash_Write\CM4 (Core 1)\ARM IAR Generic\cy8c6xx7_cm4_dual.icf</v>
+<v>CE220120\CE220120_Blocking_Mode_Flash_Write\CM4 (Core 1)\ARM MDK Generic</v>
+<v>CE220120\CE220120_Blocking_Mode_Flash_Write\CM4 (Core 1)\ARM MDK Generic\cy8c6xx7_cm4_dual.scat</v>
+<v>CE220120\CE220120_Blocking_Mode_Flash_Write\CM4 (Core 1)\Header Files</v>
+<v>CE220120\CE220120_Blocking_Mode_Flash_Write\CM4 (Core 1)\Source Files</v>
+<v>CE220120\CE220120_Blocking_Mode_Flash_Write\CM4 (Core 1)\Source Files\ARM GCC Generic</v>
+<v>CE220120\CE220120_Blocking_Mode_Flash_Write\CM4 (Core 1)\Source Files\ARM GCC Generic\startup_psoc6_01_cm4.S</v>
+<v>CE220120\CE220120_Blocking_Mode_Flash_Write\CM4 (Core 1)\Source Files\ARM IAR Generic</v>
+<v>CE220120\CE220120_Blocking_Mode_Flash_Write\CM4 (Core 1)\Source Files\ARM IAR Generic\startup_psoc6_01_cm4.s</v>
+<v>CE220120\CE220120_Blocking_Mode_Flash_Write\CM4 (Core 1)\Source Files\ARM MDK Generic</v>
+<v>CE220120\CE220120_Blocking_Mode_Flash_Write\CM4 (Core 1)\Source Files\ARM MDK Generic\startup_psoc6_01_cm4.s</v>
+<v>CE220120\CE220120_Blocking_Mode_Flash_Write\CM4 (Core 1)\Source Files\main_cm4.c</v>
+<v>CE220120\CE220120_Blocking_Mode_Flash_Write\CM4 (Core 1)\Source Files\system_psoc6_cm4.c</v>
+<v>CE220120\CE220120_Blocking_Mode_Flash_Write\Shared Files</v>
+<v>CE220120\CE220120_Blocking_Mode_Flash_Write\Shared Files\cyapicallbacks.h</v>
+<v>CE220120\CE220120_Blocking_Mode_Flash_Write\Shared Files\stdio_user.c</v>
+<v>CE220120\CE220120_Blocking_Mode_Flash_Write\Shared Files\stdio_user.h</v>
+<v>CE220120\CE220120_Blocking_Mode_Flash_Write\Shared Files\system_psoc6.h</v>
+<v>CE220120\CE220120_Blocking_Mode_Flash_Write\Generated_Source</v>
+<v>CE220120\CE220120_Blocking_Mode_Flash_Write\Generated_Source\PSoC6</v>
+<v>CE220120\CE220120.pdf</v>
+</ExpandedNodeIds>
+<VisibleNodeIds>
+<v>CE220120\CE220120_Blocking_Mode_Flash_Write\CM0p (Core 0)\Source Files\ARM IAR Generic\startup_psoc6_01_cm0plus.s</v>
+<v>CE220120\CE220120_Blocking_Mode_Flash_Write\CM0p (Core 0)\Source Files\ARM MDK Generic</v>
+<v>CE220120\CE220120_Blocking_Mode_Flash_Write\CM0p (Core 0)\Source Files\ARM MDK Generic\startup_psoc6_01_cm0plus.s</v>
+<v>CE220120\CE220120_Blocking_Mode_Flash_Write\CM0p (Core 0)\Source Files\main_cm0p.c</v>
+<v>CE220120\CE220120_Blocking_Mode_Flash_Write\CM0p (Core 0)\Source Files\system_psoc6_cm0plus.c</v>
+<v>CE220120\CE220120_Blocking_Mode_Flash_Write\CM4 (Core 1)</v>
+<v>CE220120\CE220120_Blocking_Mode_Flash_Write\CM4 (Core 1)\ARM GCC Generic</v>
+<v>CE220120\CE220120_Blocking_Mode_Flash_Write\CM4 (Core 1)\ARM GCC Generic\cy8c6xx7_cm4_dual.ld</v>
+<v>CE220120\CE220120_Blocking_Mode_Flash_Write\CM4 (Core 1)\ARM IAR Generic</v>
+<v>CE220120\CE220120_Blocking_Mode_Flash_Write\CM4 (Core 1)\ARM IAR Generic\cy8c6xx7_cm4_dual.icf</v>
+<v>CE220120\CE220120_Blocking_Mode_Flash_Write\CM4 (Core 1)\ARM MDK Generic</v>
+<v>CE220120\CE220120_Blocking_Mode_Flash_Write\CM4 (Core 1)\ARM MDK Generic\cy8c6xx7_cm4_dual.scat</v>
+<v>CE220120\CE220120_Blocking_Mode_Flash_Write\CM4 (Core 1)\Header Files</v>
+<v>CE220120\CE220120_Blocking_Mode_Flash_Write\CM4 (Core 1)\Source Files</v>
+<v>CE220120\CE220120_Blocking_Mode_Flash_Write\CM4 (Core 1)\Source Files\ARM GCC Generic</v>
+<v>CE220120\CE220120_Blocking_Mode_Flash_Write\CM4 (Core 1)\Source Files\ARM GCC Generic\startup_psoc6_01_cm4.S</v>
+<v>CE220120\CE220120_Blocking_Mode_Flash_Write\CM4 (Core 1)\Source Files\ARM IAR Generic</v>
+<v>CE220120\CE220120_Blocking_Mode_Flash_Write\CM4 (Core 1)\Source Files\ARM IAR Generic\startup_psoc6_01_cm4.s</v>
+<v>CE220120\CE220120_Blocking_Mode_Flash_Write\CM4 (Core 1)\Source Files\ARM MDK Generic</v>
+<v>CE220120\CE220120_Blocking_Mode_Flash_Write\CM4 (Core 1)\Source Files\ARM MDK Generic\startup_psoc6_01_cm4.s</v>
+<v>CE220120\CE220120_Blocking_Mode_Flash_Write\CM4 (Core 1)\Source Files\main_cm4.c</v>
+<v>CE220120\CE220120_Blocking_Mode_Flash_Write\CM4 (Core 1)\Source Files\system_psoc6_cm4.c</v>
+<v>CE220120\CE220120_Blocking_Mode_Flash_Write\Shared Files</v>
+<v>CE220120\CE220120_Blocking_Mode_Flash_Write\Shared Files\cyapicallbacks.h</v>
+<v>CE220120\CE220120_Blocking_Mode_Flash_Write\Shared Files\stdio_user.c</v>
+<v>CE220120\CE220120_Blocking_Mode_Flash_Write\Shared Files\stdio_user.h</v>
+<v>CE220120\CE220120_Blocking_Mode_Flash_Write\Shared Files\system_psoc6.h</v>
+<v>CE220120\CE220120_Blocking_Mode_Flash_Write\Generated_Source</v>
+<v>CE220120\CE220120_Blocking_Mode_Flash_Write\Generated_Source\PSoC6</v>
+<v>CE220120\CE220120_Blocking_Mode_Flash_Write\Generated_Source\PSoC6\pdl</v>
+</VisibleNodeIds>
+</CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
+<ExpandedNodeIds>
+<v>CE220120</v>
+<v>CE220120\CE220120_Blocking_Mode_Flash_Write</v>
+<v>CE220120\CE220120_Blocking_Mode_Flash_Write\TopDesign</v>
+<v>CE220120\CE220120_Blocking_Mode_Flash_Write\TopDesign\TopDesign.cysch</v>
+</ExpandedNodeIds>
+<VisibleNodeIds>
+<v>CE220120</v>
+<v>CE220120\CE220120_Blocking_Mode_Flash_Write</v>
+<v>CE220120\CE220120_Blocking_Mode_Flash_Write\TopDesign</v>
+<v>CE220120\CE220120_Blocking_Mode_Flash_Write\TopDesign\TopDesign.cysch</v>
+</VisibleNodeIds>
+</CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
+<ExpandedNodeIds>
+<v>CE220120</v>
+<v>CE220120\CE220120_Blocking_Mode_Flash_Write</v>
+<v>CE220120\CE220120_Blocking_Mode_Flash_Write\CortexM0p</v>
+<v>CE220120\CE220120_Blocking_Mode_Flash_Write\CortexM0p\ARM_GCC_541</v>
+<v>CE220120\CE220120_Blocking_Mode_Flash_Write\CortexM0p\ARM_GCC_541\Debug</v>
+<v>CE220120\CE220120_Blocking_Mode_Flash_Write\CortexM0p\ARM_GCC_541\Debug\Listing Files</v>
+<v>CE220120\CE220120_Blocking_Mode_Flash_Write\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_ble_clk.lst</v>
+<v>CE220120\CE220120_Blocking_Mode_Flash_Write\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_device.lst</v>
+<v>CE220120\CE220120_Blocking_Mode_Flash_Write\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_efuse.lst</v>
+<v>CE220120\CE220120_Blocking_Mode_Flash_Write\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_flash.lst</v>
+<v>CE220120\CE220120_Blocking_Mode_Flash_Write\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_gpio.lst</v>
+<v>CE220120\CE220120_Blocking_Mode_Flash_Write\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_ipc_drv.lst</v>
+<v>CE220120\CE220120_Blocking_Mode_Flash_Write\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_ipc_pipe.lst</v>
+<v>CE220120\CE220120_Blocking_Mode_Flash_Write\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_ipc_sema.lst</v>
+<v>CE220120\CE220120_Blocking_Mode_Flash_Write\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_lvd.lst</v>
+<v>CE220120\CE220120_Blocking_Mode_Flash_Write\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_profile.lst</v>
+<v>CE220120\CE220120_Blocking_Mode_Flash_Write\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_prot.lst</v>
+<v>CE220120\CE220120_Blocking_Mode_Flash_Write\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_scb_common.lst</v>
+<v>CE220120\CE220120_Blocking_Mode_Flash_Write\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_scb_ezi2c.lst</v>
+<v>CE220120\CE220120_Blocking_Mode_Flash_Write\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_scb_i2c.lst</v>
+<v>CE220120\CE220120_Blocking_Mode_Flash_Write\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_scb_spi.lst</v>
+<v>CE220120\CE220120_Blocking_Mode_Flash_Write\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_scb_uart.lst</v>
+<v>CE220120\CE220120_Blocking_Mode_Flash_Write\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_sysanalog.lst</v>
+<v>CE220120\CE220120_Blocking_Mode_Flash_Write\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_sysclk.lst</v>
+<v>CE220120\CE220120_Blocking_Mode_Flash_Write\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_sysint.lst</v>
+<v>CE220120\CE220120_Blocking_Mode_Flash_Write\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_syslib.lst</v>
+<v>CE220120\CE220120_Blocking_Mode_Flash_Write\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_syslib_gcc.lst</v>
+<v>CE220120\CE220120_Blocking_Mode_Flash_Write\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_syspm.lst</v>
+<v>CE220120\CE220120_Blocking_Mode_Flash_Write\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_systick.lst</v>
+<v>CE220120\CE220120_Blocking_Mode_Flash_Write\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_trigmux.lst</v>
+<v>CE220120\CE220120_Blocking_Mode_Flash_Write\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_wdt.lst</v>
+<v>CE220120\CE220120_Blocking_Mode_Flash_Write\CortexM0p\ARM_GCC_541\Debug\Listing Files\cyfitter_cfg.lst</v>
+<v>CE220120\CE220120_Blocking_Mode_Flash_Write\CortexM0p\ARM_GCC_541\Debug\Listing Files\cyfitter_sysint_cfg.lst</v>
+<v>CE220120\CE220120_Blocking_Mode_Flash_Write\CortexM0p\ARM_GCC_541\Debug\Listing Files\cymetadata.lst</v>
+<v>CE220120\CE220120_Blocking_Mode_Flash_Write\CortexM0p\ARM_GCC_541\Debug\Listing Files\main_cm0p.lst</v>
+<v>CE220120\CE220120_Blocking_Mode_Flash_Write\CortexM0p\ARM_GCC_541\Debug\Listing Files\retarget.lst</v>
+<v>CE220120\CE220120_Blocking_Mode_Flash_Write\CortexM0p\ARM_GCC_541\Debug\Listing Files\startup_psoc6_01_cm0plus.lst</v>
+<v>CE220120\CE220120_Blocking_Mode_Flash_Write\CortexM0p\ARM_GCC_541\Debug\Listing Files\stdio_user.lst</v>
+<v>CE220120\CE220120_Blocking_Mode_Flash_Write\CortexM0p\ARM_GCC_541\Debug\Listing Files\system_psoc6_cm0plus.lst</v>
+<v>CE220120\CE220120_Blocking_Mode_Flash_Write\CortexM0p\ARM_GCC_541\Debug\Listing Files\UART_1.lst</v>
+<v>CE220120\CE220120_Blocking_Mode_Flash_Write\CortexM0p\ARM_GCC_541\Debug\CE220120_Blocking_Mode_Flash_Write.elf</v>
+<v>CE220120\CE220120_Blocking_Mode_Flash_Write\CortexM0p\ARM_GCC_541\Debug\CE220120_Blocking_Mode_Flash_Write.hex</v>
+<v>CE220120\CE220120_Blocking_Mode_Flash_Write\CortexM0p\ARM_GCC_541\Debug\CE220120_Blocking_Mode_Flash_Write.map</v>
+<v>CE220120\CE220120_Blocking_Mode_Flash_Write\CortexM4</v>
+<v>CE220120\CE220120_Blocking_Mode_Flash_Write\CortexM4\ARM_GCC_541</v>
+<v>CE220120\CE220120_Blocking_Mode_Flash_Write\CortexM4\ARM_GCC_541\Debug</v>
+<v>CE220120\CE220120_Blocking_Mode_Flash_Write\CortexM4\ARM_GCC_541\Debug\Listing Files</v>
+<v>CE220120\CE220120_Blocking_Mode_Flash_Write\CortexM4\ARM_GCC_541\Debug\Listing Files\cy_ble_clk.lst</v>
+<v>CE220120\CE220120_Blocking_Mode_Flash_Write\CortexM4\ARM_GCC_541\Debug\Listing Files\cy_device.lst</v>
+<v>CE220120\CE220120_Blocking_Mode_Flash_Write\CortexM4\ARM_GCC_541\Debug\Listing Files\cy_efuse.lst</v>
+<v>CE220120\CE220120_Blocking_Mode_Flash_Write\CortexM4\ARM_GCC_541\Debug\Listing Files\cy_flash.lst</v>
+<v>CE220120\CE220120_Blocking_Mode_Flash_Write\CortexM4\ARM_GCC_541\Debug\Listing Files\cy_gpio.lst</v>
+<v>CE220120\CE220120_Blocking_Mode_Flash_Write\CortexM4\ARM_GCC_541\Debug\Listing Files\cy_ipc_drv.lst</v>
+<v>CE220120\CE220120_Blocking_Mode_Flash_Write\CortexM4\ARM_GCC_541\Debug\Listing Files\cy_ipc_pipe.lst</v>
+<v>CE220120\CE220120_Blocking_Mode_Flash_Write\CortexM4\ARM_GCC_541\Debug\Listing Files\cy_ipc_sema.lst</v>
+<v>CE220120\CE220120_Blocking_Mode_Flash_Write\CortexM4\ARM_GCC_541\Debug\Listing Files\cy_lvd.lst</v>
+<v>CE220120\CE220120_Blocking_Mode_Flash_Write\CortexM4\ARM_GCC_541\Debug\Listing Files\cy_profile.lst</v>
+<v>CE220120\CE220120_Blocking_Mode_Flash_Write\CortexM4\ARM_GCC_541\Debug\Listing Files\cy_prot.lst</v>
+<v>CE220120\CE220120_Blocking_Mode_Flash_Write\CortexM4\ARM_GCC_541\Debug\Listing Files\cy_scb_common.lst</v>
+<v>CE220120\CE220120_Blocking_Mode_Flash_Write\CortexM4\ARM_GCC_541\Debug\Listing Files\cy_scb_ezi2c.lst</v>
+<v>CE220120\CE220120_Blocking_Mode_Flash_Write\CortexM4\ARM_GCC_541\Debug\Listing Files\cy_scb_i2c.lst</v>
+<v>CE220120\CE220120_Blocking_Mode_Flash_Write\CortexM4\ARM_GCC_541\Debug\Listing Files\cy_scb_spi.lst</v>
+<v>CE220120\CE220120_Blocking_Mode_Flash_Write\CortexM4\ARM_GCC_541\Debug\Listing Files\cy_scb_uart.lst</v>
+<v>CE220120\CE220120_Blocking_Mode_Flash_Write\CortexM4\ARM_GCC_541\Debug\Listing Files\cy_sysanalog.lst</v>
+<v>CE220120\CE220120_Blocking_Mode_Flash_Write\CortexM4\ARM_GCC_541\Debug\Listing Files\cy_sysclk.lst</v>
+<v>CE220120\CE220120_Blocking_Mode_Flash_Write\CortexM4\ARM_GCC_541\Debug\Listing Files\cy_sysint.lst</v>
+<v>CE220120\CE220120_Blocking_Mode_Flash_Write\CortexM4\ARM_GCC_541\Debug\Listing Files\cy_syslib.lst</v>
+<v>CE220120\CE220120_Blocking_Mode_Flash_Write\CortexM4\ARM_GCC_541\Debug\Listing Files\cy_syslib_gcc.lst</v>
+<v>CE220120\CE220120_Blocking_Mode_Flash_Write\CortexM4\ARM_GCC_541\Debug\Listing Files\cy_syspm.lst</v>
+<v>CE220120\CE220120_Blocking_Mode_Flash_Write\CortexM4\ARM_GCC_541\Debug\Listing Files\cy_systick.lst</v>
+<v>CE220120\CE220120_Blocking_Mode_Flash_Write\CortexM4\ARM_GCC_541\Debug\Listing Files\cy_trigmux.lst</v>
+<v>CE220120\CE220120_Blocking_Mode_Flash_Write\CortexM4\ARM_GCC_541\Debug\Listing Files\cy_wdt.lst</v>
+<v>CE220120\CE220120_Blocking_Mode_Flash_Write\CortexM4\ARM_GCC_541\Debug\Listing Files\cyfitter_sysint_cfg.lst</v>
+<v>CE220120\CE220120_Blocking_Mode_Flash_Write\CortexM4\ARM_GCC_541\Debug\Listing Files\cymetadata.lst</v>
+<v>CE220120\CE220120_Blocking_Mode_Flash_Write\CortexM4\ARM_GCC_541\Debug\Listing Files\main_cm4.lst</v>
+<v>CE220120\CE220120_Blocking_Mode_Flash_Write\CortexM4\ARM_GCC_541\Debug\Listing Files\retarget.lst</v>
+<v>CE220120\CE220120_Blocking_Mode_Flash_Write\CortexM4\ARM_GCC_541\Debug\Listing Files\startup_psoc6_01_cm4.lst</v>
+<v>CE220120\CE220120_Blocking_Mode_Flash_Write\CortexM4\ARM_GCC_541\Debug\Listing Files\stdio_user.lst</v>
+<v>CE220120\CE220120_Blocking_Mode_Flash_Write\CortexM4\ARM_GCC_541\Debug\Listing Files\system_psoc6_cm4.lst</v>
+<v>CE220120\CE220120_Blocking_Mode_Flash_Write\CortexM4\ARM_GCC_541\Debug\Listing Files\UART_1.lst</v>
+<v>CE220120\CE220120_Blocking_Mode_Flash_Write\CortexM4\ARM_GCC_541\Debug\CE220120_Blocking_Mode_Flash_Write.elf</v>
+<v>CE220120\CE220120_Blocking_Mode_Flash_Write\CortexM4\ARM_GCC_541\Debug\CE220120_Blocking_Mode_Flash_Write.hex</v>
+<v>CE220120\CE220120_Blocking_Mode_Flash_Write\CortexM4\ARM_GCC_541\Debug\CE220120_Blocking_Mode_Flash_Write.map</v>
+<v>CE220120\CE220120_Blocking_Mode_Flash_Write\CE220120_Blocking_Mode_Flash_Write.gpdsc</v>
+<v>CE220120\CE220120_Blocking_Mode_Flash_Write\CE220120_Blocking_Mode_Flash_Write.rpt</v>
+<v>CE220120\CE220120_Blocking_Mode_Flash_Write\CE220120_Blocking_Mode_Flash_Write_timing.html</v>
+</ExpandedNodeIds>
+<VisibleNodeIds>
+<v>CE220120</v>
+<v>CE220120\CE220120_Blocking_Mode_Flash_Write</v>
+<v>CE220120\CE220120_Blocking_Mode_Flash_Write\CortexM0p</v>
+<v>CE220120\CE220120_Blocking_Mode_Flash_Write\CortexM0p\ARM_GCC_541</v>
+<v>CE220120\CE220120_Blocking_Mode_Flash_Write\CortexM0p\ARM_GCC_541\Debug</v>
+<v>CE220120\CE220120_Blocking_Mode_Flash_Write\CortexM0p\ARM_GCC_541\Debug\Listing Files</v>
+<v>CE220120\CE220120_Blocking_Mode_Flash_Write\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_ble_clk.lst</v>
+<v>CE220120\CE220120_Blocking_Mode_Flash_Write\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_device.lst</v>
+<v>CE220120\CE220120_Blocking_Mode_Flash_Write\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_efuse.lst</v>
+<v>CE220120\CE220120_Blocking_Mode_Flash_Write\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_flash.lst</v>
+<v>CE220120\CE220120_Blocking_Mode_Flash_Write\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_gpio.lst</v>
+<v>CE220120\CE220120_Blocking_Mode_Flash_Write\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_ipc_drv.lst</v>
+<v>CE220120\CE220120_Blocking_Mode_Flash_Write\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_ipc_pipe.lst</v>
+<v>CE220120\CE220120_Blocking_Mode_Flash_Write\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_ipc_sema.lst</v>
+<v>CE220120\CE220120_Blocking_Mode_Flash_Write\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_lvd.lst</v>
+<v>CE220120\CE220120_Blocking_Mode_Flash_Write\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_profile.lst</v>
+<v>CE220120\CE220120_Blocking_Mode_Flash_Write\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_prot.lst</v>
+<v>CE220120\CE220120_Blocking_Mode_Flash_Write\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_scb_common.lst</v>
+<v>CE220120\CE220120_Blocking_Mode_Flash_Write\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_scb_ezi2c.lst</v>
+<v>CE220120\CE220120_Blocking_Mode_Flash_Write\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_scb_i2c.lst</v>
+<v>CE220120\CE220120_Blocking_Mode_Flash_Write\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_scb_spi.lst</v>
+<v>CE220120\CE220120_Blocking_Mode_Flash_Write\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_scb_uart.lst</v>
+<v>CE220120\CE220120_Blocking_Mode_Flash_Write\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_sysanalog.lst</v>
+<v>CE220120\CE220120_Blocking_Mode_Flash_Write\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_sysclk.lst</v>
+<v>CE220120\CE220120_Blocking_Mode_Flash_Write\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_sysint.lst</v>
+<v>CE220120\CE220120_Blocking_Mode_Flash_Write\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_syslib.lst</v>
+<v>CE220120\CE220120_Blocking_Mode_Flash_Write\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_syslib_gcc.lst</v>
+<v>CE220120\CE220120_Blocking_Mode_Flash_Write\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_syspm.lst</v>
+<v>CE220120\CE220120_Blocking_Mode_Flash_Write\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_systick.lst</v>
+<v>CE220120\CE220120_Blocking_Mode_Flash_Write\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_trigmux.lst</v>
+</VisibleNodeIds>
+</CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
+</TreeStates>
+<TreeKeysV2>
+<v>Datasheet</v>
+</TreeKeysV2>
+<TreeStatesV2>
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
+<ExpandedNodeIds>
+<v>CE220120</v>
+<v>CE220120\CE220120_Blocking_Mode_Flash_Write</v>
+<v>CE220120\CE220120_Blocking_Mode_Flash_Write\PSoC 6 Architecture TRM</v>
+<v>CE220120\CE220120_Blocking_Mode_Flash_Write\PSoC 63 Family Datasheet</v>
+<v>CE220120\CE220120_Blocking_Mode_Flash_Write\Peripheral Driver Library</v>
+<v>CE220120\CE220120_Blocking_Mode_Flash_Write\System Reference Guides</v>
+<v>CE220120\CE220120_Blocking_Mode_Flash_Write\GPIO_PDL_v1_0</v>
+<v>CE220120\CE220120_Blocking_Mode_Flash_Write\GPIO_PDL_v1_0\GPIO_PDL_v1_0.pdf</v>
+<v>CE220120\CE220120_Blocking_Mode_Flash_Write\LED_v1_0</v>
+<v>CE220120\CE220120_Blocking_Mode_Flash_Write\LED_v1_0\LED_v1_0.pdf</v>
+<v>CE220120\CE220120_Blocking_Mode_Flash_Write\Power_v1_0</v>
+<v>CE220120\CE220120_Blocking_Mode_Flash_Write\Power_v1_0\Power_v1_0.pdf</v>
+<v>CE220120\CE220120_Blocking_Mode_Flash_Write\Resistor_v1_0</v>
+<v>CE220120\CE220120_Blocking_Mode_Flash_Write\Resistor_v1_0\Resistor_v1_0.pdf</v>
+<v>CE220120\CE220120_Blocking_Mode_Flash_Write\SCB_UART_PDL_v2_0.pdf</v>
+</ExpandedNodeIds>
+<VisibleNodeIds>
+<v>CE220120</v>
+<v>CE220120\CE220120_Blocking_Mode_Flash_Write</v>
+<v>CE220120\CE220120_Blocking_Mode_Flash_Write\PSoC 6 Architecture TRM</v>
+<v>CE220120\CE220120_Blocking_Mode_Flash_Write\PSoC 63 Family Datasheet</v>
+<v>CE220120\CE220120_Blocking_Mode_Flash_Write\Peripheral Driver Library</v>
+<v>CE220120\CE220120_Blocking_Mode_Flash_Write\System Reference Guides</v>
+<v>CE220120\CE220120_Blocking_Mode_Flash_Write\GPIO_PDL_v1_0</v>
+<v>CE220120\CE220120_Blocking_Mode_Flash_Write\GPIO_PDL_v1_0\GPIO_PDL_v1_0.pdf</v>
+<v>CE220120\CE220120_Blocking_Mode_Flash_Write\LED_v1_0</v>
+<v>CE220120\CE220120_Blocking_Mode_Flash_Write\LED_v1_0\LED_v1_0.pdf</v>
+<v>CE220120\CE220120_Blocking_Mode_Flash_Write\Power_v1_0</v>
+<v>CE220120\CE220120_Blocking_Mode_Flash_Write\Power_v1_0\Power_v1_0.pdf</v>
+<v>CE220120\CE220120_Blocking_Mode_Flash_Write\Resistor_v1_0</v>
+<v>CE220120\CE220120_Blocking_Mode_Flash_Write\Resistor_v1_0\Resistor_v1_0.pdf</v>
+<v>CE220120\CE220120_Blocking_Mode_Flash_Write\SCB_UART_PDL_v2_0.pdf</v>
+</VisibleNodeIds>
+</CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
+</TreeStatesV2>
+</CyGuid_1b906a0f-a7b6-4e4d-a428-82f98b53cb35>
+</dataGuid>
+</userData>
+</CyGuid_fdba8dfd-b15b-4469-9bbb-9e40c3e70997>
+<Unloaded />
+<OpenDocs>
+<name v=".\CE220120_Blocking_Mode_Flash_Write.cydsn\main_cm4.c" />
+<name v=".\CE220120_Blocking_Mode_Flash_Write.cydsn\main_cm0p.c" />
+<name v=".\CE220120_Blocking_Mode_Flash_Write.cydsn\Generated_Source\PSoC6\pdl\drivers\peripheral\flash\cy_flash.h" />
+<name v=".\CE220120_Blocking_Mode_Flash_Write.cydsn\CE220120_Blocking_Mode_Flash_Write.cydwr" />
+<name v=".\CE220120_Blocking_Mode_Flash_Write.cydsn\TopDesign\TopDesign.cysch" />
+<name v=".\CE220120_Blocking_Mode_Flash_Write.cydsn\stdio_user.h" />
+<name v=".\CE220120_Blocking_Mode_Flash_Write.cydsn\Generated_Source\PSoC6\pdl\devices\psoc6\include\cy8c6347bzi_bld53.h" />
+</OpenDocs>
+<OpenDocsLayout><![CDATA[<?xml version="1.0"?><!--
+
+  Actipro Docking/MDI for WinForms
+  Copyright (c) 2001-2016 Actipro Software LLC.  All rights reserved.
+  http://www.actiprosoftware.com
+
+--><DocumentLayout Version="1.0"><LayoutData><TabbedMdiRootContainer Orientation="Horizontal"><TabbedMdiContainer Size="911, 595" SelectedTabbedMdiWindow="03a3c053-f83a-4e52-80fe-5c69f4f00d6c"><ToolWindow Key="Start Page:bd4649ab-da6b-4d04-a663-c722b8bf99db:Start Page" Guid="9f0da9a4-6fc1-4842-8f78-a0c55cdf0e7d" /><ToolWindow Key="Output Window Plugin:7305390e-eabe-4963-b21f-3a0f11b4b1d5:Output Window" Guid="73de7761-3dbb-47a0-9a93-9d6338c3a45f" /><ToolWindow Key="CyNoticeWindow:44d3d453-9474-4f2b-b928-4356f496bef0:Notice Window" Guid="03a3c053-f83a-4e52-80fe-5c69f4f00d6c" /><DocumentWindow Key="C:\Alen\GitHub_Denzerek\MTB_Workspace\PSoC_6\flashwriteCode\CE220120_Blocking_Mode_Flash_Write.cydsn\main_cm4.c" Guid="1a2e14a9-47a3-4295-9565-067a9f1376b6" /><DocumentWindow Key="C:\Alen\GitHub_Denzerek\MTB_Workspace\PSoC_6\flashwriteCode\CE220120_Blocking_Mode_Flash_Write.cydsn\main_cm0p.c" Guid="9d304a92-bc2a-4285-acff-2dc2be57bb26" /><DocumentWindow Key="C:\Alen\GitHub_Denzerek\MTB_Workspace\PSoC_6\flashwriteCode\CE220120_Blocking_Mode_Flash_Write.cydsn\Generated_Source\PSoC6\pdl\drivers\peripheral\flash\cy_flash.h" Guid="6dd06971-3cf2-483e-ad5d-3cc140dfa2b1" /><DocumentWindow Key="C:\Alen\GitHub_Denzerek\MTB_Workspace\PSoC_6\flashwriteCode\CE220120_Blocking_Mode_Flash_Write.cydsn\CE220120_Blocking_Mode_Flash_Write.cydwr" Guid="f90df7d5-3933-426f-a7cc-d75a061c74a1" /><DocumentWindow Key="C:\Alen\GitHub_Denzerek\MTB_Workspace\PSoC_6\flashwriteCode\CE220120_Blocking_Mode_Flash_Write.cydsn\TopDesign\TopDesign.cysch" Guid="e4a82d54-4c35-44af-84e4-2c87725d6cda" /><DocumentWindow Key="C:\Alen\GitHub_Denzerek\MTB_Workspace\PSoC_6\flashwriteCode\CE220120_Blocking_Mode_Flash_Write.cydsn\stdio_user.h" Guid="ce830701-0806-4954-8de0-b93e28d9f23d" /><DocumentWindow Key="C:\Alen\GitHub_Denzerek\MTB_Workspace\PSoC_6\flashwriteCode\CE220120_Blocking_Mode_Flash_Write.cydsn\Generated_Source\PSoC6\pdl\devices\psoc6\include\cy8c6347bzi_bld53.h" Guid="e0396087-f908-42e2-8c1e-4ffc5087e0ab" /></TabbedMdiContainer></TabbedMdiRootContainer><FloatingContainers /></LayoutData></DocumentLayout>]]></OpenDocsLayout>
+<config v="" />
+<AutoUpdate v="true" />
+</CyGuid_843a90a4-0c4b-4e44-991d-05e7fb117a21>
+</CyXmlSerializer>

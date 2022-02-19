@@ -38,6 +38,14 @@ namespace USB_HID_interface
             this.InputTimer = new System.Windows.Forms.Timer(this.components);
             this.Input = new System.Windows.Forms.Label();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
+            this.textBox9 = new System.Windows.Forms.TextBox();
+            this.textBox8 = new System.Windows.Forms.TextBox();
+            this.textBox7 = new System.Windows.Forms.TextBox();
+            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.textBox2 = new System.Windows.Forms.TextBox();
             this.label16 = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
@@ -46,14 +54,6 @@ namespace USB_HID_interface
             this.label5 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.textBox7 = new System.Windows.Forms.TextBox();
-            this.textBox8 = new System.Windows.Forms.TextBox();
-            this.textBox9 = new System.Windows.Forms.TextBox();
             this.tableLayoutPanel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -125,6 +125,78 @@ namespace USB_HID_interface
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
             this.tableLayoutPanel1.Size = new System.Drawing.Size(293, 565);
             this.tableLayoutPanel1.TabIndex = 3;
+            // 
+            // textBox9
+            // 
+            this.textBox9.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.textBox9.Location = new System.Drawing.Point(156, 510);
+            this.textBox9.Margin = new System.Windows.Forms.Padding(10, 20, 10, 10);
+            this.textBox9.Name = "textBox9";
+            this.textBox9.Size = new System.Drawing.Size(127, 26);
+            this.textBox9.TabIndex = 26;
+            // 
+            // textBox8
+            // 
+            this.textBox8.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.textBox8.Location = new System.Drawing.Point(156, 440);
+            this.textBox8.Margin = new System.Windows.Forms.Padding(10, 20, 10, 10);
+            this.textBox8.Name = "textBox8";
+            this.textBox8.Size = new System.Drawing.Size(127, 26);
+            this.textBox8.TabIndex = 25;
+            // 
+            // textBox7
+            // 
+            this.textBox7.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.textBox7.Location = new System.Drawing.Point(156, 370);
+            this.textBox7.Margin = new System.Windows.Forms.Padding(10, 20, 10, 10);
+            this.textBox7.Name = "textBox7";
+            this.textBox7.Size = new System.Drawing.Size(127, 26);
+            this.textBox7.TabIndex = 24;
+            // 
+            // textBox6
+            // 
+            this.textBox6.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.textBox6.Location = new System.Drawing.Point(156, 300);
+            this.textBox6.Margin = new System.Windows.Forms.Padding(10, 20, 10, 10);
+            this.textBox6.Name = "textBox6";
+            this.textBox6.Size = new System.Drawing.Size(127, 26);
+            this.textBox6.TabIndex = 23;
+            // 
+            // textBox5
+            // 
+            this.textBox5.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.textBox5.Location = new System.Drawing.Point(156, 230);
+            this.textBox5.Margin = new System.Windows.Forms.Padding(10, 20, 10, 10);
+            this.textBox5.Name = "textBox5";
+            this.textBox5.Size = new System.Drawing.Size(127, 26);
+            this.textBox5.TabIndex = 22;
+            // 
+            // textBox4
+            // 
+            this.textBox4.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.textBox4.Location = new System.Drawing.Point(156, 160);
+            this.textBox4.Margin = new System.Windows.Forms.Padding(10, 20, 10, 10);
+            this.textBox4.Name = "textBox4";
+            this.textBox4.Size = new System.Drawing.Size(127, 26);
+            this.textBox4.TabIndex = 21;
+            // 
+            // textBox3
+            // 
+            this.textBox3.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.textBox3.Location = new System.Drawing.Point(156, 90);
+            this.textBox3.Margin = new System.Windows.Forms.Padding(10, 20, 10, 10);
+            this.textBox3.Name = "textBox3";
+            this.textBox3.Size = new System.Drawing.Size(127, 26);
+            this.textBox3.TabIndex = 20;
+            // 
+            // textBox2
+            // 
+            this.textBox2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.textBox2.Location = new System.Drawing.Point(156, 20);
+            this.textBox2.Margin = new System.Windows.Forms.Padding(10, 20, 10, 10);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(127, 26);
+            this.textBox2.TabIndex = 4;
             // 
             // label16
             // 
@@ -213,78 +285,6 @@ namespace USB_HID_interface
             this.label1.Size = new System.Drawing.Size(106, 30);
             this.label1.TabIndex = 4;
             this.label1.Text = "label1";
-            // 
-            // textBox2
-            // 
-            this.textBox2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.textBox2.Location = new System.Drawing.Point(156, 20);
-            this.textBox2.Margin = new System.Windows.Forms.Padding(10, 20, 10, 10);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(127, 26);
-            this.textBox2.TabIndex = 4;
-            // 
-            // textBox3
-            // 
-            this.textBox3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.textBox3.Location = new System.Drawing.Point(156, 90);
-            this.textBox3.Margin = new System.Windows.Forms.Padding(10, 20, 10, 10);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(127, 26);
-            this.textBox3.TabIndex = 20;
-            // 
-            // textBox4
-            // 
-            this.textBox4.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.textBox4.Location = new System.Drawing.Point(156, 160);
-            this.textBox4.Margin = new System.Windows.Forms.Padding(10, 20, 10, 10);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(127, 26);
-            this.textBox4.TabIndex = 21;
-            // 
-            // textBox5
-            // 
-            this.textBox5.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.textBox5.Location = new System.Drawing.Point(156, 230);
-            this.textBox5.Margin = new System.Windows.Forms.Padding(10, 20, 10, 10);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(127, 26);
-            this.textBox5.TabIndex = 22;
-            // 
-            // textBox6
-            // 
-            this.textBox6.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.textBox6.Location = new System.Drawing.Point(156, 300);
-            this.textBox6.Margin = new System.Windows.Forms.Padding(10, 20, 10, 10);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(127, 26);
-            this.textBox6.TabIndex = 23;
-            // 
-            // textBox7
-            // 
-            this.textBox7.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.textBox7.Location = new System.Drawing.Point(156, 370);
-            this.textBox7.Margin = new System.Windows.Forms.Padding(10, 20, 10, 10);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(127, 26);
-            this.textBox7.TabIndex = 24;
-            // 
-            // textBox8
-            // 
-            this.textBox8.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.textBox8.Location = new System.Drawing.Point(156, 440);
-            this.textBox8.Margin = new System.Windows.Forms.Padding(10, 20, 10, 10);
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(127, 26);
-            this.textBox8.TabIndex = 25;
-            // 
-            // textBox9
-            // 
-            this.textBox9.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.textBox9.Location = new System.Drawing.Point(156, 510);
-            this.textBox9.Margin = new System.Windows.Forms.Padding(10, 20, 10, 10);
-            this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(127, 26);
-            this.textBox9.TabIndex = 26;
             // 
             // HID_Inteface
             // 

@@ -42,7 +42,7 @@
 #include "sdCard.h"
 #include "cy_retarget_io.h"
 
-
+void
 int main(void)
 {
     cy_rslt_t result;

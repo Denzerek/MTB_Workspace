@@ -1,0 +1,157 @@
+Checking if remote manifest is accessible...
+Getting manifests from remote server...
+
+Processing super-manifest https://github.com/cypresssemiconductorco/mtb-super-manifest/raw/v2.X/mtb-super-manifest-fv2.xml...
+Successfully acquired the information.
+
+Summary: 
+
+BSP: CY8CPROTO-062-4343W
+Template Application(s): Hello World
+Application(s) Root Path: /home/denzo/GitHubRepos_Denzerek/MTB_Workspace/PSoC6_SD_Card_WS
+
+Press "Create" to create the selected application(s).
+Collecting application data...
+
+
+Info: The following entered on the command line will create the exact same project as that created with the GUI tool:
+/home/denzo/ModusToolbox/tools_2.4/project-creator/bin/project-creator-cli --board-id CY8CPROTO-062-4343W --board-uri https://github.com/cypresssemiconductorco/TARGET_CY8CPROTO-062-4343W --board-commit latest-v3.X --app-id mtb-example-psoc6-hello-world --app-uri https://github.com/cypresssemiconductorco/mtb-example-psoc6-hello-world --app-commit latest-v3.X --cypress-tools /home/denzo/ModusToolbox/tools_2.4 --target-dir /home/denzo/GitHubRepos_Denzerek/MTB_Workspace/PSoC6_SD_Card_WS --user-app-name SDCardInterface --output-for-machine --use-modus-shell
+
+
+==============================================================================
+= Cloning 'mtb-example-psoc6-hello-world' =
+==============================================================================
+Cloning https://github.com/cypresssemiconductorco/mtb-example-psoc6-hello-world into /home/denzo/GitHubRepos_Denzerek/MTB_Workspace/PSoC6_SD_Card_WS directory...
+env git clone --progress --origin cypress https://github.com/cypresssemiconductorco/mtb-example-psoc6-hello-world SDCardInterface
+Cloning into 'SDCardInterface'...
+remote: Enumerating objects: 56, done.        
+remote: Total 56 (delta 0), reused 0 (delta 0), pack-reused 56        
+
+Checking out latest-v3.X...
+env git checkout --progress latest-v3.X
+Note: switching to 'latest-v3.X'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by switching back to a branch.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -c with the switch command. Example:
+
+  git switch -c <new-branch-name>
+
+Or undo this operation with:
+
+  git switch -
+
+Turn off this advice by setting config variable advice.detachedHead to false
+
+HEAD is now at a1d784d Upload mtb-example-psoc6-hello-world 3.0.0.905
+
+==============================================================================
+= Creating "TARGET_CY8CPROTO-062-4343W.mtb" file(s) =
+==============================================================================
+/home/denzo/GitHubRepos_Denzerek/MTB_Workspace/PSoC6_SD_Card_WS/SDCardInterface/deps/TARGET_CY8CPROTO-062-4343W.mtb was updated
+
+==============================================================================
+= Updating Makefile for "SDCardInterface" =
+==============================================================================
+
+==============================================================================
+= Applying the Latest Version Locking for "SDCardInterface" =
+==============================================================================
+/home/denzo/GitHubRepos_Denzerek/MTB_Workspace/PSoC6_SD_Card_WS/SDCardInterface/deps/TARGET_CY8CPROTO-062-4343W.mtb was updated
+/home/denzo/GitHubRepos_Denzerek/MTB_Workspace/PSoC6_SD_Card_WS/SDCardInterface/deps/retarget-io.mtb was updated
+
+==============================================================================
+= Getting Dependencies for "SDCardInterface" =
+==============================================================================
+make getlibs CY_TOOLS_PATHS=/home/denzo/ModusToolbox/tools_2.4
+Tools Directory: /home/denzo/ModusToolbox/tools_2.4
+
+==============================================================================
+= Importing libraries =
+==============================================================================
+Git is git version 2.25.1, found at /usr/bin/git
+
+Resolving dependencies...
+Checking if remote manifest is accessible...
+Getting manifests from remote server...
+Processing super-manifest https://github.com/cypresssemiconductorco/mtb-super-manifest/raw/v2.X/mtb-super-manifest-fv2.xml...
+Successfully acquired the information.
+INFO - Warning: Multiple versions of "core-make" requested. Keeping version "latest-v1.X" and discarding version "release-v1.9.0".
+/home/denzo/GitHubRepos_Denzerek/MTB_Workspace/PSoC6_SD_Card_WS/SDCardInterface/libs/capsense.mtb was added
+/home/denzo/GitHubRepos_Denzerek/MTB_Workspace/PSoC6_SD_Card_WS/SDCardInterface/libs/core-lib.mtb was added
+/home/denzo/GitHubRepos_Denzerek/MTB_Workspace/PSoC6_SD_Card_WS/SDCardInterface/libs/core-make.mtb was added
+/home/denzo/GitHubRepos_Denzerek/MTB_Workspace/PSoC6_SD_Card_WS/SDCardInterface/libs/mtb-hal-cat1.mtb was added
+/home/denzo/GitHubRepos_Denzerek/MTB_Workspace/PSoC6_SD_Card_WS/SDCardInterface/libs/mtb-pdl-cat1.mtb was added
+/home/denzo/GitHubRepos_Denzerek/MTB_Workspace/PSoC6_SD_Card_WS/SDCardInterface/libs/psoc6cm0p.mtb was added
+/home/denzo/GitHubRepos_Denzerek/MTB_Workspace/PSoC6_SD_Card_WS/SDCardInterface/libs/recipe-make-cat1a.mtb was added
+Dependencies resolved.
+
+Searching application directory (.mtb)...
+Found 9 .mtb file(s)
+    Processing file "/home/denzo/GitHubRepos_Denzerek/MTB_Workspace/PSoC6_SD_Card_WS/SDCardInterface/deps/retarget-io.mtb"
+    Processing file "/home/denzo/GitHubRepos_Denzerek/MTB_Workspace/PSoC6_SD_Card_WS/SDCardInterface/deps/TARGET_CY8CPROTO-062-4343W.mtb"
+    Processing file "/home/denzo/GitHubRepos_Denzerek/MTB_Workspace/PSoC6_SD_Card_WS/SDCardInterface/libs/capsense.mtb"
+    Processing file "/home/denzo/GitHubRepos_Denzerek/MTB_Workspace/PSoC6_SD_Card_WS/SDCardInterface/libs/core-lib.mtb"
+    Processing file "/home/denzo/GitHubRepos_Denzerek/MTB_Workspace/PSoC6_SD_Card_WS/SDCardInterface/libs/core-make.mtb"
+    Processing file "/home/denzo/GitHubRepos_Denzerek/MTB_Workspace/PSoC6_SD_Card_WS/SDCardInterface/libs/mtb-hal-cat1.mtb"
+    Processing file "/home/denzo/GitHubRepos_Denzerek/MTB_Workspace/PSoC6_SD_Card_WS/SDCardInterface/libs/mtb-pdl-cat1.mtb"
+    Processing file "/home/denzo/GitHubRepos_Denzerek/MTB_Workspace/PSoC6_SD_Card_WS/SDCardInterface/libs/psoc6cm0p.mtb"
+    Processing file "/home/denzo/GitHubRepos_Denzerek/MTB_Workspace/PSoC6_SD_Card_WS/SDCardInterface/libs/recipe-make-cat1a.mtb"
+Libraries processed.
+Created file "/home/denzo/GitHubRepos_Denzerek/MTB_Workspace/PSoC6_SD_Card_WS/SDCardInterface/libs/mtb.mk".
+
+
+==============================================================================
+= Import complete =
+==============================================================================
+
+Project "SDCardInterface" created successfully.
+==============================================================================
+= Export "SDCardInterface" application to Eclipse IDE for ModusToolbox™ =
+==============================================================================
+make eclipse CY_IDE_PRJNAME=SDCardInterface CY_MAKE_IDE=eclipse CY_MAKE_IDE_VERSION=2.4 CY_TOOLS_PATHS=/home/denzo/ModusToolbox/tools_2.4
+Tools Directory: /home/denzo/ModusToolbox/tools_2.4
+CY8CPROTO-062-4343W.mk: ./libs/TARGET_CY8CPROTO-062-4343W/CY8CPROTO-062-4343W.mk
+
+Running device-configurator to update stale files...
+Log file= "/tmp/device-configurator-cli/device-configurator-cli-20220220.212750.441-85784.log"
+Command line= "/home/denzo/ModusToolbox/tools_2.4/device-configurator/bin/device-configurator-cli --library ../mtb_shared/mtb-pdl-cat1/release-v2.3.1/devicesupport.xml --build ./libs/TARGET_CY8CPROTO-062-4343W/COMPONENT_BSP_DESIGN_MODUS/design.modus --check-mcu=CY8C624ABZI-S2D44 --check-coprocessors=CYW4343WKUBG --readonly"
+INFO: The design file was last saved with a different version of the tools than was used to perform code generation. Last saved with: Tools Package 2.4.0.5721. Current: Tools Package 2.4.0.5972 (/home/denzo/ModusToolbox/tools_2.4)
+-> Generated device configuration file(s) in ./libs/TARGET_CY8CPROTO-062-4343W/COMPONENT_BSP_DESIGN_MODUS/GeneratedSource
+
+Prebuild operations complete
+Commencing build operations...
+
+Tools Directory: /home/denzo/ModusToolbox/tools_2.4
+CY8CPROTO-062-4343W.mk: ./libs/TARGET_CY8CPROTO-062-4343W/CY8CPROTO-062-4343W.mk
+
+Initializing build: mtb-example-psoc6-hello-world Debug CY8CPROTO-062-4343W GCC_ARM
+
+Auto-discovery in progress...
+-> Found 194 .c file(s)
+-> Found 46 .S file(s)
+-> Found 22 .s file(s)
+-> Found 0 .cpp file(s)
+-> Found 0 .o file(s)
+-> Found 6 .a file(s)
+-> Found 505 .h file(s)
+-> Found 0 .hpp file(s)
+-> Found 0 resource file(s)
+Applying filters...
+Auto-discovery complete
+
+Constructing build rules...
+Build rules construction complete
+
+==============================================================================
+= Generating IDE files =
+==============================================================================
+
+Generated Eclipse launch config files:  "SDCardInterface Attach (JLink).launch" "SDCardInterface Attach (KitProg3_MiniProg4).launch" "SDCardInterface Debug (JLink).launch" "SDCardInterface Debug (KitProg3_MiniProg4).launch" "SDCardInterface Erase (JLink).launch" "SDCardInterface Erase (KitProg3_MiniProg4).launch" "SDCardInterface Program (JLink).launch" "SDCardInterface Program (KitProg3_MiniProg4).launch"
+  
+The project "SDCardInterface" was successfully exported to Eclipse IDE for ModusToolbox™.
+
+Successfully created and exported "SDCardInterface" application.
